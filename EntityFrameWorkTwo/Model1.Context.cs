@@ -13,10 +13,10 @@ namespace EntityFrameWorkTwo
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class FruitsAndVagatableEntities1 : DbContext
+    public partial class FruitsAndVagatableEntities2 : DbContext
     {
-        public FruitsAndVagatableEntities1()
-            : base("name=FruitsAndVagatableEntities1")
+        public FruitsAndVagatableEntities2()
+            : base("name=FruitsAndVagatableEntities2")
         {
         }
     

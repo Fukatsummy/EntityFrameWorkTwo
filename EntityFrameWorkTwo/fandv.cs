@@ -12,6 +12,7 @@ namespace EntityFrameWorkTwo
     using System;
     using System.Collections.Generic;
 
+   
     public partial class fandv
     {
         public int Id { get; set; }
@@ -22,12 +23,10 @@ namespace EntityFrameWorkTwo
 
         public fandv()
         {
-           
         }
-
         public fandv(int id, string name, string type, string color, int calories)
         {
-            Id = 5;
+            Id = id;
             Name = name;
             Type = type;
             Color = color;
@@ -35,9 +34,8 @@ namespace EntityFrameWorkTwo
         }
         public override string ToString()
         {
-            return Id.ToString() + " " + Name + " " + Color + " " + Calories.ToString();
+            return Id.ToString() + " " + Name + " " + Type + " " + Color + " " + Calories.ToString();
         }
-    }
-
-
+    
+}
 }
